@@ -10,3 +10,7 @@ void call(env){
   res = Eval.me(config.script)
   println "RES : ${res}"
 }
+
+def more_processing() {
+  println "More processing"
+}
