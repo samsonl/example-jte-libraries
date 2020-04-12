@@ -1,3 +1,3 @@
 void call(){
-  println "gradle2: build()"
+  println "gradle2a: build()"
 }
