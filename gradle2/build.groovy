@@ -7,5 +7,6 @@ void call(env){
   println "gradle2a:2 ver build(${version})"
   println "gradle2a:2 config stuff build(${config.config_stuff})"
   println ">>> ${config.script}"
-  Eval.me(config.script)
+  res = Eval.me(config.script)
+  println "RES : ${res}"
 }
