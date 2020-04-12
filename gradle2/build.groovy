@@ -1,3 +1,3 @@
 void call(){
-  println "gradle2a: build()"
+  println "gradle2a: build(${dev.long_name})"
 }
